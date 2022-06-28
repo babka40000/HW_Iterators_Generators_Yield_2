@@ -1,3 +1,7 @@
+from debug import decorator
+
+
+@decorator('loggg.txt')
 def flat_generator(list_iter):
     for list_elem in list_iter:
         for element in list_elem:
